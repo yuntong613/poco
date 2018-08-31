@@ -31,6 +31,7 @@
     <ProjectGuid>{EEEE7259-32E9-4D56-B023-C733940AB2A0}</ProjectGuid>
     <RootNamespace>Crypto</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_static_md|Win32'" Label="Configuration">
@@ -121,9 +122,9 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug_shared|Win32'">
     <PreBuildEvent>
-      <Command>xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1>nul
-xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1>nul
-xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\bin\* 1>nul
+      <Command>xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1&gt;nul
+xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1&gt;nul
+xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\bin\* 1&gt;nul
 exit 0</Command>
     </PreBuildEvent>
     <ClCompile>
@@ -157,8 +158,8 @@ exit 0</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release_shared|Win32'">
     <PreBuildEvent>
-      <Command>xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1>nul
-xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1>nul
+      <Command>xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1&gt;nul
+xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1&gt;nul
 exit 0</Command>
     </PreBuildEvent>
     <ClCompile>
@@ -195,8 +196,8 @@ exit 0</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug_static_mt|Win32'">
     <PreBuildEvent>
-      <Command>xcopy /y ..\openssl\build\win32\lib\debug\*.lib ..\lib\* 1>nul
-xcopy /y ..\openssl\build\win32\lib\debug\*.pdb ..\lib\* 1>nul
+      <Command>xcopy /y ..\openssl\build\win32\lib\debug\*.lib ..\lib\* 1&gt;nul
+xcopy /y ..\openssl\build\win32\lib\debug\*.pdb ..\lib\* 1&gt;nul
 exit 0</Command>
     </PreBuildEvent>
     <ClCompile>
@@ -223,7 +224,7 @@ exit 0</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release_static_mt|Win32'">
     <PreBuildEvent>
-      <Command>xcopy /y ..\openssl\build\win32\lib\release\*.lib ..\lib\* 1>nul
+      <Command>xcopy /y ..\openssl\build\win32\lib\release\*.lib ..\lib\* 1&gt;nul
 exit 0</Command>
     </PreBuildEvent>
     <ClCompile>
@@ -251,9 +252,9 @@ exit 0</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug_static_md|Win32'">
     <PreBuildEvent>
-      <Command>xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1>nul
-xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1>nul
-xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\bin\* 1>nul
+      <Command>xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1&gt;nul
+xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1&gt;nul
+xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\bin\* 1&gt;nul
 exit 0</Command>
     </PreBuildEvent>
     <ClCompile>
@@ -280,8 +281,8 @@ exit 0</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release_static_md|Win32'">
     <PreBuildEvent>
-      <Command>xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1>nul
-xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1>nul
+      <Command>xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1&gt;nul
+xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1&gt;nul
 exit 0</Command>
     </PreBuildEvent>
     <ClCompile>

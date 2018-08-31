@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="debug_shared|Win32">
@@ -31,8 +31,9 @@
     <ProjectGuid>{4FF2F34B-7F37-3ACD-AFBC-F21D6D426199}</ProjectGuid>
     <RootNamespace>MongoDB</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_static_md|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
@@ -63,27 +64,27 @@
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
-  <ImportGroup Label="ExtensionSettings"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_static_md|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug_static_md|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_static_mt|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug_static_mt|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_shared|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug_shared|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
-  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='debug_shared|Win32'">PocoMongoDBd</TargetName>
@@ -132,7 +133,7 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
@@ -163,9 +164,9 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat/>
+      <DebugInformationFormat />
       <CompileAs>Default</CompileAs>
     </ClCompile>
     <Link>
@@ -193,7 +194,7 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <ProgramDataBaseFileName>..\lib\PocoMongoDBmtd.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -218,9 +219,9 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat/>
+      <DebugInformationFormat />
       <CompileAs>Default</CompileAs>
     </ClCompile>
     <Lib>
@@ -240,7 +241,7 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <ProgramDataBaseFileName>..\lib\PocoMongoDBmdd.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -265,10 +266,10 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <ProgramDataBaseFileName>..\lib\PocoMongoDBmd.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat/>
+      <DebugInformationFormat />
       <CompileAs>Default</CompileAs>
     </ClCompile>
     <Lib>
@@ -276,55 +277,55 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Array.cpp"/>
-    <ClCompile Include="src\Binary.cpp"/>
-    <ClCompile Include="src\Connection.cpp"/>
-    <ClCompile Include="src\Cursor.cpp"/>
-    <ClCompile Include="src\Database.cpp"/>
-    <ClCompile Include="src\DeleteRequest.cpp"/>
-    <ClCompile Include="src\Document.cpp"/>
-    <ClCompile Include="src\Element.cpp"/>
-    <ClCompile Include="src\GetMoreRequest.cpp"/>
-    <ClCompile Include="src\InsertRequest.cpp"/>
-    <ClCompile Include="src\JavaScriptCode.cpp"/>
-    <ClCompile Include="src\KillCursorsRequest.cpp"/>
-    <ClCompile Include="src\Message.cpp"/>
-    <ClCompile Include="src\MessageHeader.cpp"/>
-    <ClCompile Include="src\ObjectId.cpp"/>
-    <ClCompile Include="src\QueryRequest.cpp"/>
-    <ClCompile Include="src\RegularExpression.cpp"/>
-    <ClCompile Include="src\ReplicaSet.cpp"/>
-    <ClCompile Include="src\RequestMessage.cpp"/>
-    <ClCompile Include="src\ResponseMessage.cpp"/>
-    <ClCompile Include="src\UpdateRequest.cpp"/>
+    <ClCompile Include="src\Array.cpp" />
+    <ClCompile Include="src\Binary.cpp" />
+    <ClCompile Include="src\Connection.cpp" />
+    <ClCompile Include="src\Cursor.cpp" />
+    <ClCompile Include="src\Database.cpp" />
+    <ClCompile Include="src\DeleteRequest.cpp" />
+    <ClCompile Include="src\Document.cpp" />
+    <ClCompile Include="src\Element.cpp" />
+    <ClCompile Include="src\GetMoreRequest.cpp" />
+    <ClCompile Include="src\InsertRequest.cpp" />
+    <ClCompile Include="src\JavaScriptCode.cpp" />
+    <ClCompile Include="src\KillCursorsRequest.cpp" />
+    <ClCompile Include="src\Message.cpp" />
+    <ClCompile Include="src\MessageHeader.cpp" />
+    <ClCompile Include="src\ObjectId.cpp" />
+    <ClCompile Include="src\QueryRequest.cpp" />
+    <ClCompile Include="src\RegularExpression.cpp" />
+    <ClCompile Include="src\ReplicaSet.cpp" />
+    <ClCompile Include="src\RequestMessage.cpp" />
+    <ClCompile Include="src\ResponseMessage.cpp" />
+    <ClCompile Include="src\UpdateRequest.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Poco\MongoDB\Array.h"/>
-    <ClInclude Include="include\Poco\MongoDB\Binary.h"/>
-    <ClInclude Include="include\Poco\MongoDB\BSONReader.h"/>
-    <ClInclude Include="include\Poco\MongoDB\BSONWriter.h"/>
-    <ClInclude Include="include\Poco\MongoDB\Connection.h"/>
-    <ClInclude Include="include\Poco\MongoDB\Cursor.h"/>
-    <ClInclude Include="include\Poco\MongoDB\Database.h"/>
-    <ClInclude Include="include\Poco\MongoDB\DeleteRequest.h"/>
-    <ClInclude Include="include\Poco\MongoDB\Document.h"/>
-    <ClInclude Include="include\Poco\MongoDB\Element.h"/>
-    <ClInclude Include="include\Poco\MongoDB\GetMoreRequest.h"/>
-    <ClInclude Include="include\Poco\MongoDB\InsertRequest.h"/>
-    <ClInclude Include="include\Poco\MongoDB\JavaScriptCode.h"/>
-    <ClInclude Include="include\Poco\MongoDB\KillCursorsRequest.h"/>
-    <ClInclude Include="include\Poco\MongoDB\Message.h"/>
-    <ClInclude Include="include\Poco\MongoDB\MessageHeader.h"/>
-    <ClInclude Include="include\Poco\MongoDB\MongoDB.h"/>
-    <ClInclude Include="include\Poco\MongoDB\ObjectId.h"/>
-    <ClInclude Include="include\Poco\MongoDB\PoolableConnectionFactory.h"/>
-    <ClInclude Include="include\Poco\MongoDB\QueryRequest.h"/>
-    <ClInclude Include="include\Poco\MongoDB\RegularExpression.h"/>
-    <ClInclude Include="include\Poco\MongoDB\ReplicaSet.h"/>
-    <ClInclude Include="include\Poco\MongoDB\RequestMessage.h"/>
-    <ClInclude Include="include\Poco\MongoDB\ResponseMessage.h"/>
-    <ClInclude Include="include\Poco\MongoDB\UpdateRequest.h"/>
+    <ClInclude Include="include\Poco\MongoDB\Array.h" />
+    <ClInclude Include="include\Poco\MongoDB\Binary.h" />
+    <ClInclude Include="include\Poco\MongoDB\BSONReader.h" />
+    <ClInclude Include="include\Poco\MongoDB\BSONWriter.h" />
+    <ClInclude Include="include\Poco\MongoDB\Connection.h" />
+    <ClInclude Include="include\Poco\MongoDB\Cursor.h" />
+    <ClInclude Include="include\Poco\MongoDB\Database.h" />
+    <ClInclude Include="include\Poco\MongoDB\DeleteRequest.h" />
+    <ClInclude Include="include\Poco\MongoDB\Document.h" />
+    <ClInclude Include="include\Poco\MongoDB\Element.h" />
+    <ClInclude Include="include\Poco\MongoDB\GetMoreRequest.h" />
+    <ClInclude Include="include\Poco\MongoDB\InsertRequest.h" />
+    <ClInclude Include="include\Poco\MongoDB\JavaScriptCode.h" />
+    <ClInclude Include="include\Poco\MongoDB\KillCursorsRequest.h" />
+    <ClInclude Include="include\Poco\MongoDB\Message.h" />
+    <ClInclude Include="include\Poco\MongoDB\MessageHeader.h" />
+    <ClInclude Include="include\Poco\MongoDB\MongoDB.h" />
+    <ClInclude Include="include\Poco\MongoDB\ObjectId.h" />
+    <ClInclude Include="include\Poco\MongoDB\PoolableConnectionFactory.h" />
+    <ClInclude Include="include\Poco\MongoDB\QueryRequest.h" />
+    <ClInclude Include="include\Poco\MongoDB\RegularExpression.h" />
+    <ClInclude Include="include\Poco\MongoDB\ReplicaSet.h" />
+    <ClInclude Include="include\Poco\MongoDB\RequestMessage.h" />
+    <ClInclude Include="include\Poco\MongoDB\ResponseMessage.h" />
+    <ClInclude Include="include\Poco\MongoDB\UpdateRequest.h" />
   </ItemGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
-  <ImportGroup Label="ExtensionTargets"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
 </Project>

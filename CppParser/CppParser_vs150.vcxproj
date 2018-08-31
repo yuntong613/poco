@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="debug_shared|Win32">
@@ -31,8 +31,9 @@
     <ProjectGuid>{C77B9D92-EC91-11DA-A4CE-005056C00008}</ProjectGuid>
     <RootNamespace>CppParser</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_static_md|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
@@ -63,27 +64,27 @@
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
-  <ImportGroup Label="ExtensionSettings"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_static_md|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug_static_md|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_static_mt|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug_static_mt|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_shared|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug_shared|Win32'" Label="PropertySheets">
-    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
   </ImportGroup>
-  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='debug_shared|Win32'">PocoCppParserd</TargetName>
@@ -132,7 +133,7 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
@@ -163,9 +164,9 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat/>
+      <DebugInformationFormat />
       <CompileAs>Default</CompileAs>
     </ClCompile>
     <Link>
@@ -193,7 +194,7 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <ProgramDataBaseFileName>..\lib\PocoCppParsermtd.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -218,9 +219,9 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat/>
+      <DebugInformationFormat />
       <CompileAs>Default</CompileAs>
     </ClCompile>
     <Lib>
@@ -240,7 +241,7 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <ProgramDataBaseFileName>..\lib\PocoCppParsermdd.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -265,10 +266,10 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <PrecompiledHeader/>
+      <PrecompiledHeader />
       <ProgramDataBaseFileName>..\lib\PocoCppParsermd.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat/>
+      <DebugInformationFormat />
       <CompileAs>Default</CompileAs>
     </ClCompile>
     <Lib>
@@ -276,44 +277,44 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="include\Poco\CppParser\Attributes.h"/>
-    <ClInclude Include="include\Poco\CppParser\AttributesParser.h"/>
-    <ClInclude Include="include\Poco\CppParser\BuiltIn.h"/>
-    <ClInclude Include="include\Poco\CppParser\CppParser.h"/>
-    <ClInclude Include="include\Poco\CppParser\CppToken.h"/>
-    <ClInclude Include="include\Poco\CppParser\Decl.h"/>
-    <ClInclude Include="include\Poco\CppParser\Enum.h"/>
-    <ClInclude Include="include\Poco\CppParser\EnumValue.h"/>
-    <ClInclude Include="include\Poco\CppParser\Function.h"/>
-    <ClInclude Include="include\Poco\CppParser\NameSpace.h"/>
-    <ClInclude Include="include\Poco\CppParser\Parameter.h"/>
-    <ClInclude Include="include\Poco\CppParser\Parser.h"/>
-    <ClInclude Include="include\Poco\CppParser\Struct.h"/>
-    <ClInclude Include="include\Poco\CppParser\Symbol.h"/>
-    <ClInclude Include="include\Poco\CppParser\Tokenizer.h"/>
-    <ClInclude Include="include\Poco\CppParser\TypeDef.h"/>
-    <ClInclude Include="include\Poco\CppParser\Utility.h"/>
-    <ClInclude Include="include\Poco\CppParser\Variable.h"/>
+    <ClInclude Include="include\Poco\CppParser\Attributes.h" />
+    <ClInclude Include="include\Poco\CppParser\AttributesParser.h" />
+    <ClInclude Include="include\Poco\CppParser\BuiltIn.h" />
+    <ClInclude Include="include\Poco\CppParser\CppParser.h" />
+    <ClInclude Include="include\Poco\CppParser\CppToken.h" />
+    <ClInclude Include="include\Poco\CppParser\Decl.h" />
+    <ClInclude Include="include\Poco\CppParser\Enum.h" />
+    <ClInclude Include="include\Poco\CppParser\EnumValue.h" />
+    <ClInclude Include="include\Poco\CppParser\Function.h" />
+    <ClInclude Include="include\Poco\CppParser\NameSpace.h" />
+    <ClInclude Include="include\Poco\CppParser\Parameter.h" />
+    <ClInclude Include="include\Poco\CppParser\Parser.h" />
+    <ClInclude Include="include\Poco\CppParser\Struct.h" />
+    <ClInclude Include="include\Poco\CppParser\Symbol.h" />
+    <ClInclude Include="include\Poco\CppParser\Tokenizer.h" />
+    <ClInclude Include="include\Poco\CppParser\TypeDef.h" />
+    <ClInclude Include="include\Poco\CppParser\Utility.h" />
+    <ClInclude Include="include\Poco\CppParser\Variable.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Attributes.cpp"/>
-    <ClCompile Include="src\AttributesParser.cpp"/>
-    <ClCompile Include="src\BuiltIn.cpp"/>
-    <ClCompile Include="src\CppToken.cpp"/>
-    <ClCompile Include="src\Decl.cpp"/>
-    <ClCompile Include="src\Enum.cpp"/>
-    <ClCompile Include="src\EnumValue.cpp"/>
-    <ClCompile Include="src\Function.cpp"/>
-    <ClCompile Include="src\NameSpace.cpp"/>
-    <ClCompile Include="src\Parameter.cpp"/>
-    <ClCompile Include="src\Parser.cpp"/>
-    <ClCompile Include="src\Struct.cpp"/>
-    <ClCompile Include="src\Symbol.cpp"/>
-    <ClCompile Include="src\Tokenizer.cpp"/>
-    <ClCompile Include="src\TypeDef.cpp"/>
-    <ClCompile Include="src\Utility.cpp"/>
-    <ClCompile Include="src\Variable.cpp"/>
+    <ClCompile Include="src\Attributes.cpp" />
+    <ClCompile Include="src\AttributesParser.cpp" />
+    <ClCompile Include="src\BuiltIn.cpp" />
+    <ClCompile Include="src\CppToken.cpp" />
+    <ClCompile Include="src\Decl.cpp" />
+    <ClCompile Include="src\Enum.cpp" />
+    <ClCompile Include="src\EnumValue.cpp" />
+    <ClCompile Include="src\Function.cpp" />
+    <ClCompile Include="src\NameSpace.cpp" />
+    <ClCompile Include="src\Parameter.cpp" />
+    <ClCompile Include="src\Parser.cpp" />
+    <ClCompile Include="src\Struct.cpp" />
+    <ClCompile Include="src\Symbol.cpp" />
+    <ClCompile Include="src\Tokenizer.cpp" />
+    <ClCompile Include="src\TypeDef.cpp" />
+    <ClCompile Include="src\Utility.cpp" />
+    <ClCompile Include="src\Variable.cpp" />
   </ItemGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
-  <ImportGroup Label="ExtensionTargets"/>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
 </Project>
