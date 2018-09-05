@@ -39,7 +39,11 @@ bool doRequest(Poco::Net::HTTPClientSession& session, Poco::Net::HTTPRequest& re
 	std::cout << response.getStatus() << " " << response.getReason() << std::endl;
 	if (response.getStatus() != Poco::Net::HTTPResponse::HTTP_UNAUTHORIZED)
 	{
-		StreamCopier::copyStream(rs, std::cout);
+/*		StreamCopier::copyStream(rs, std::cout);*/
+		std::string recv;
+		StreamCopier::copyToString(rs, recv);
+		std::cout << recv << std::endl;
+		r
 		return true;
 	}
 	else
@@ -53,17 +57,18 @@ bool doRequest(Poco::Net::HTTPClientSession& session, Poco::Net::HTTPRequest& re
 
 int main(int argc, char** argv)
 {
-	if (argc != 2)
-	{
-		Path p(argv[0]);
-		std::cout << "usage: " << p.getBaseName() << " <uri>" << std::endl;
-		std::cout << "       fetches the resource identified by <uri> and print it to the standard output" << std::endl;
-		return 1;
-	}
+// 	if (argc != 2)
+// 	{
+// 		Path p(argv[0]);
+// 		std::cout << "usage: " << p.getBaseName() << " <uri>" << std::endl;
+// 		std::cout << "       fetches the resource identified by <uri> and print it to the standard output" << std::endl;
+// 		return 1;
+// 	}
 
 	try
 	{
-		URI uri(argv[1]);
+/*		URI uri(argv[1]);*/
+		URI uri("http://127.0.0.1:9980/");
 		std::string path(uri.getPathAndQuery());
 		if (path.empty()) path = "/";
 
